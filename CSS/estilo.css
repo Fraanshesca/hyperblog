@@ -8,6 +8,23 @@ body
     padding: 0;
 }
 
+#cabezera 
+{
+    background: darkslategrey;
+    box-shadow: 0px 2px 50px 0px black
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+
+}
+
+#cabezera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container
 {
     width: 50%;
@@ -25,4 +42,9 @@ body
 #container 
 {
     font-size: 20px;
+}
+
+#post 
+{
+    padding: 1em;
 }
